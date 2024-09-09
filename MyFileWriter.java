@@ -4,6 +4,13 @@ import java.nio.file.*;
 import java.nio.charset.StandardCharsets;
 
 public class MyFileWriter {
+
+    // Calculate and print the file size using the File class
+    private static void printFileSize(String fileName) {
+        // Implementation goes here
+    }
+
+
     public static void main(String[] args) {
         String data = "Hello, World!";
         String fileName1 = "example.txt";
