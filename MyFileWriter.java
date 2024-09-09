@@ -12,6 +12,9 @@ public class MyFileWriter {
         String fileName4 = "example4.txt";
         String fileName5 = "example5.txt";
 
+        File direxample = new File("DIRNAME");
+        direxample.mkdir();
+
         // 1. Using FileWriter
         try (FileWriter writer = new FileWriter(fileName1)) {
             writer.write(data);
